@@ -29,3 +29,4 @@ export 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart'
     show LiquidPullToRefresh, LiquidPullToRefreshState, ProgressRingCurve;
 export 'package:lottie/lottie.dart';
 export 'package:smooth_page_indicator/smooth_page_indicator.dart';
+export 'package:core_ui/resources/app_image_paths.dart';
