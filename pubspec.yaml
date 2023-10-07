@@ -10,6 +10,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  navigation: 
+   path: ./navigation  
 
   cupertino_icons: ^1.0.2
 
@@ -23,6 +25,6 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/images/
-    - assets/animation
+    - assets/image/
+    - assets/animation/
     - assets/font/

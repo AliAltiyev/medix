@@ -28,7 +28,7 @@ dependencies:
   hive: ^2.2.3
   #connection
   internet_connection_checker: ^1.0.0+1
-  #url uncher`
+  #url luncher`
   url_launcher: ^6.1.12
   #dartz
   dartz: ^0.10.1
@@ -40,6 +40,8 @@ dependencies:
   uuid: ^3.0.7
   #intl
   intl: any
+  #navigation
+  auto_route: ^5.0.4
 
 dev_dependencies:
   flutter_test:
