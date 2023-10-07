@@ -1,4 +1,9 @@
 abstract class ImagePaths {
+  //core
+
+  static const String primaryBackgroundImage =
+      'assets/image/primary_background.png';
+
   //Onboarding
   static const String onBoardingImage1 =
       'assets/animation/on_boarding_image_1.json';

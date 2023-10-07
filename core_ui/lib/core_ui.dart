@@ -8,7 +8,9 @@ export 'package:core_ui/core_ui.dart';
 export 'package:core_ui/resources/app_colors.dart';
 export 'package:core_ui/resources/app_dimension.dart';
 export 'package:core_ui/resources/app_fonts.dart';
+export 'package:core_ui/resources/app_gradient_background.dart';
 export 'package:core_ui/resources/app_icons.dart';
+export 'package:core_ui/resources/app_image_paths.dart';
 export 'package:fl_chart/fl_chart.dart';
 export 'package:flutter/material.dart';
 export 'package:flutter_rating_bar/flutter_rating_bar.dart';
@@ -29,4 +31,3 @@ export 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart'
     show LiquidPullToRefresh, LiquidPullToRefreshState, ProgressRingCurve;
 export 'package:lottie/lottie.dart';
 export 'package:smooth_page_indicator/smooth_page_indicator.dart';
-export 'package:core_ui/resources/app_image_paths.dart';

@@ -10,14 +10,19 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  auto_route: ^7.8.4
+  core:
+   path: ../core 
+  onboarding:
+   path: ../features/onboarding/
+
+  auto_route: 5.0.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
-  auto_route_generator: ^7.8.4                    
-  build_runner: ^2.4.6
+  auto_route_generator: 5.0.3                    
+  build_runner: ^2.3.3
   
 flutter:
 

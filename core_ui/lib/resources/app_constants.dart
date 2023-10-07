@@ -1,5 +1,6 @@
 final class AppConstants {
   //Onboarding
+  static const String getStarted = 'Get started';
   static const String onBoardingTitle1 = 'Find Your Inner Peace';
   static const String onBoardingTitle2 = 'Your Journey to Mindfulness';
   static const String onBoardingTitle3 = 'Discover the Power of Meditation';
