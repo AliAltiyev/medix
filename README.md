@@ -1,16 +1,91 @@
-# medix
+<h1 align="center" id="title">Medix</h1>
 
-A new Flutter project.
+<p align="center"><img src="https://github.com/AliAltiyev/medix/assets/100046123/54073557-03fa-40c1-8bd4-6328ed8708e1"
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+<p id="description">Meditation application</p>
 
-A few resources to get you started if this is your first Flutter project:
+  
+  
+<h2>🧐 Gitflow </h2>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Branches: 
+* master
+* dev
+* *bug-fix
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+  
+<h2>💻 Architecture </h2>
+
+*   Clean Architecture + BloC
+*   Dependency Injection: GetIt
+*   Domain layer: models, repositories, use-cases.
+*   Data layer: entities, mappers from entities to domain model, implementations of 
+    repositories and providers.
+*   Presentation layer: screens + bloc
+
+
+<h2>🛡️ Supported flavors </h2>
+
+ *  dev
+
+
+<h2>🪓 Project structure </h2>
+
+<h3> Modules </h3>
+ 
+ *  core
+ 
+ *  core_ui
+ 
+ *  navigation
+ 
+ *  data
+ 
+ *  domain
+ 
+ *  For presentation layer every feature is a separate module.
+
+<h2>⏳ Asynchrony support </h2>
+
+ *  Flutter Async
+
+<h2> 📑 Abstractions for data sources and data access </h2>
+
+* Providers are responsible for specific services (e.g. http provider, local provider, etc.),
+they use data layer entities. Do not have abstract base classes.
+Repositories are responsible for gathering data from providers
+and mapping it to the corresponding domain layer models. Have abstract base classes in domain layer.
+
+<h2> 🐿️ Presentation layer abstractions </h2>
+
+* Base and frequently used widgets are stored in core_ui module.
+Base widget for screens is AppScaffold.
+Example: CustomScreen -> CustomForm
+Navigation is implemented using Auto Route
+Navigation on BLoC event is done from the BLoC object itself without BuildContext,
+router is stored in DI container and is injected in BLoC via constructor.
+
+
+<h2> 🐧 Approach for working with UI </h2>
+
+* One file = one widget.
+* Screen widget contains BlocProviders.
+
+
+<h2> 🌍 Localization </h2>
+
+* Localization is implemented using EasyLocalization service.
+
+
+<h2> 🎨 Design system  </h2>
+
+* Fonts, colors, frequently used constant values, and icons are stored in core_ui 
+  module.
+
+<h2> 📲 Supported platforms  </h2>
+
+* Mobiles - Android and IOS
+ 
+
+   
