@@ -1,9 +1,9 @@
-import 'package:medix/app.dart';
 import 'package:medix/medix.dart';
-import 'package:navigation/di/di.dart';
 
-void main() {
+Future<void> main() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   initNavigation();
-
   runApp(Application());
 }

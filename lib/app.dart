@@ -1,4 +1,4 @@
-import 'package:medix/medix.dart';
+import 'medix.dart';
 import 'package:navigation/router/app_router.dart';
 
 class Application extends StatelessWidget {

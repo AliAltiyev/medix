@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "713687798053",
+    "project_id": "medix-bfed3",
+    "storage_bucket": "medix-bfed3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713687798053:android:2d40ec55cd22ab8786cacc",
+        "android_client_info": {
+          "package_name": "com.example.medix"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHvkzlvMyChlihlvCEhiOSu02N8YdEKyE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

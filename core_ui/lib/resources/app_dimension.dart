@@ -64,6 +64,8 @@ final class Dimensions {
   static const double size_50 = 57.0;
   static const double size_62 = 62.0;
   static const double size_64 = 64.0;
+  static const double size_70 = 70.0;
+
   static const double size_88 = 88.0;
   static const double size_80 = 80.0;
   static const double size_99 = 99.0;
