@@ -12,6 +12,8 @@ dependencies:
     sdk: flutter
   navigation: 
    path: ./navigation  
+  core: 
+   path: ./core   
 
   cupertino_icons: ^1.0.2
 

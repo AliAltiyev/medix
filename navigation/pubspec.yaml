@@ -14,7 +14,8 @@ dependencies:
    path: ../core 
   onboarding:
    path: ../features/onboarding/
-
+  auth:
+   path: ../features/auth/
   auto_route: 5.0.4
 
 dev_dependencies:

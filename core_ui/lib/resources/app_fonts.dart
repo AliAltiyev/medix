@@ -33,6 +33,12 @@ final class AppFonts {
     fontSize: FontSize.s18,
   );
 
+  static TextStyle normal22 = TextStyle(
+    fontFamily: GoogleFonts.alegreyaSans().fontFamily,
+    fontWeight: FontWeight.w400,
+    fontSize: FontSize.s22,
+  );
+
   static TextStyle normal24 = TextStyle(
     fontFamily: GoogleFonts.alegreyaSans().fontFamily,
     fontWeight: FontWeight.w400,
@@ -91,6 +97,11 @@ final class AppFonts {
     fontWeight: FontWeight.w700,
     fontSize: FontSize.s26,
   );
+  static TextStyle bold30 = TextStyle(
+    fontFamily: GoogleFonts.alegreyaSans().fontFamily,
+    fontWeight: FontWeight.w700,
+    fontSize: FontSize.s30,
+  );
 }
 
 final class FontSize {
@@ -104,6 +115,7 @@ final class FontSize {
   static const double s24 = 24;
   static const double s26 = 26;
   static const double s28 = 28;
+  static const double s30 = 30;
   static const double s32 = 32;
   static const double s36 = 36;
 }

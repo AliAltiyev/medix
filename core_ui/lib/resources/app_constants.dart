@@ -10,4 +10,6 @@ final class AppConstants {
       'Meditate for a better you, physically, mentally, and emotionally.';
   static const String onBoardingSubtitle3 =
       'Reduce stress and anxiety and improve your overall well-being.';
+  //Auth
+  static const String required = 'Required field';
 }

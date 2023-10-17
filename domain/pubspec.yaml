@@ -14,7 +14,9 @@ dependencies:
     path: ../core
   core_ui:
     path: ../core_ui
+  equatable: ^2.0.5
 dev_dependencies:
+
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
