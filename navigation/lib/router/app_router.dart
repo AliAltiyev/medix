@@ -11,14 +11,12 @@ part 'app_router.gr.dart';
       name: 'onBoarding',
     ),
     AutoRoute(
-      page: SignInPage,
+      page: MainScreenPage,
       path: '/',
-      name: 'SignIn',
+      name: 'MainScreen',
     ),
-    AutoRoute(
-      page: SignUpPage,
-      name: 'SignUp',
-    ),
+
+    
   ],
 )
 class AppRouter extends _$AppRouter {}

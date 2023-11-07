@@ -1,6 +1,5 @@
 import 'package:core_ui/core_ui.dart';
 import 'package:core_ui/resources/app_constants.dart';
-import 'package:domain/domain.dart';
 
 final class OnBoarding extends Equatable {
   final String title;
