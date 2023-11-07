@@ -18,4 +18,12 @@ abstract class ImagePaths {
 
   //Auth
   static const String authBackground = 'assets/image/auth_background.png';
+  //Home
+  static const String calm = 'assets/image/relax.svg';
+  static const String relax = 'assets/image/calm.svg';
+  static const String focus = 'assets/image/focus.svg';
+  static const String anxious = 'assets/image/anxious.svg';
+  //relax
+  static const String meditation = 'assets/image/med.svg';
+
 }
