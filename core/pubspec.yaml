@@ -1,0 +1,55 @@
+name: core
+description: Application core package.
+version: 0.0.1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.5 <4.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  #firebase
+  cloud_firestore: ^4.8.1
+  firebase_core: ^2.14.0
+  firebase_auth: ^4.7.2
+  google_sign_in: ^5.0.2
+  firebase_storage: ^11.2.0
+  #dependency injection
+  get_it: ^7.6.0
+  #base
+  equatable: ^2.0.5
+  #bloc
+  flutter_bloc: ^8.1.3
+  bloc: ^8.1.2
+  #locale storage
+  hive_flutter: ^1.1.0
+  hive: ^2.2.3
+  #connection
+  internet_connection_checker: ^1.0.0+1
+  #url luncher`
+  url_launcher: ^6.1.12
+  #dartz
+  dartz: ^0.10.1
+  #provider
+  provider: ^6.0.5
+  #image picker
+  image_picker: ^1.0.1
+  #uuid
+  uuid: ^3.0.7
+  #intl
+  intl: any
+  #navigation
+  auto_route: ^5.0.4
+  #logger
+  logger: ^2.0.2+1
+  #json annotation
+  json_annotation: ^4.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
