@@ -35,6 +35,8 @@ final class Dimensions {
   static const double size_0_6 = 0.6;
 
   static const double size_2 = 2.0;
+  static const double size_2_5 = 2.5;
+
   static const double size_3 = 3.0;
   static const double size_75 = 75.0;
   static const double size_4 = 4.0;

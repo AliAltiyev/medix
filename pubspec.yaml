@@ -13,7 +13,9 @@ dependencies:
   navigation: 
    path: ./navigation  
   core: 
-   path: ./core   
+   path: ./core
+  domain: 
+   path: ./domain     
 
   cupertino_icons: ^1.0.2
 

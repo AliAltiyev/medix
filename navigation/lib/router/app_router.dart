@@ -8,15 +8,13 @@ part 'app_router.gr.dart';
     AutoRoute(
       page: OnBoardingPage,
       path: 'onBoardingRoute',
-      name: 'onBoarding',
+      name: 'onBoar',
     ),
     AutoRoute(
       page: MainScreenPage,
       path: '/',
       name: 'MainScreen',
     ),
-
-    
   ],
 )
 class AppRouter extends _$AppRouter {}

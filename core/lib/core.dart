@@ -1,7 +1,10 @@
 library core;
 
 export 'package:auto_route/auto_route.dart';
+export 'package:bloc/bloc.dart';
 export 'package:cloud_firestore/cloud_firestore.dart';
+export 'package:core/constants/audio_paths.dart';
+export 'package:core/constants/constants.dart';
 export 'package:core/di/di.dart';
 export 'package:core/exception/firebase_exception.dart';
 export 'package:equatable/equatable.dart';

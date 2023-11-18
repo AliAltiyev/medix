@@ -1,3 +1,4 @@
+import 'package:main/bloc/main_bloc.dart';
 import 'package:main/main.dart';
 
 class RelaxView extends StatefulWidget {
@@ -15,22 +16,30 @@ class _RelaxViewState extends State<RelaxView> {
       padding: const EdgeInsets.symmetric(
         vertical: Dimensions.size_16,
       ),
-      child: Scaffold(
-        backgroundColor: ApplicationColors.primaryColor,
-        body: ListView(
-          children: const <Widget>[
-            ApplicationCard(
-              imagePath: ImagePaths.onBoardingImage1,
-              subtitle: 'Meditation 101',
-              title: 'Relax with you body',
-            ),
-            ApplicationCard(
-              imagePath: ImagePaths.onBoardingImage2,
-              subtitle: 'Meditation 201',
-              title: 'Deeply sleeping tool',
-            ),
-          ],
-        ),
+      child: BlocBuilder<MainBloc, MainState>(
+        builder: (context, state) {
+          if (state is MainLoaded) {
+            final List<Sound> items = state.relaxList;
+            return Scaffold(
+              backgroundColor: ApplicationColors.primaryColor,
+              body: ListView.separated(
+                itemCount: items.length,
+                separatorBuilder: (BuildContext context, int index) {
+                  return const Divider();
+                },
+                itemBuilder: (BuildContext context, int index) {
+                  return ApplicationCard(
+                    title: items[index].title,
+                    subtitle: items[index].subtitle,
+                    imagePath: items[index].image,
+                  );
+                },
+              ),
+            );
+          } else {
+            return const Scaffold();
+          }
+        },
       ),
     );
   }
@@ -74,18 +83,22 @@ class ApplicationCard extends StatelessWidget {
             children: <Widget>[
               Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text(
-                    title,
-                    style: AppFonts.normal24.apply(
-                      color: ApplicationColors.primaryColor,
+                  SizedBox(
+                    width: size.width / Dimensions.size_2,
+                    child: Text(
+                      title,
+                      overflow: TextOverflow.ellipsis,
+                      style: AppFonts.normal24.apply(
+                        color: ApplicationColors.primaryColor,
+                      ),
                     ),
                   ),
                   SizedBox(
                     width: size.width / Dimensions.size_3,
                     child: Text(
                       subtitle,
-                      overflow: TextOverflow.ellipsis,
                       softWrap: true,
                       textAlign: TextAlign.start,
                     ),
@@ -102,10 +115,9 @@ class ApplicationCard extends StatelessWidget {
                 ],
               ),
               Expanded(
-                child: LottieBuilder.asset(
-                  imagePath,
-                ),
-              )
+                  child: LottieBuilder.asset(
+                imagePath,
+              ))
             ],
           ),
         ),
