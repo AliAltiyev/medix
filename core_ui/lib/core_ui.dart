@@ -6,6 +6,7 @@ export 'package:cached_network_image/cached_network_image.dart';
 export 'package:carousel_slider/carousel_slider.dart';
 export 'package:core/core.dart';
 export 'package:core_ui/components/app_button.dart';
+export 'package:core_ui/components/app_tab.dart';
 export 'package:core_ui/components/app_text_field.dart';
 export 'package:core_ui/core_ui.dart';
 export 'package:core_ui/resources/app_colors.dart';
@@ -33,4 +34,4 @@ export 'package:google_fonts/google_fonts.dart';
 export 'package:liquid_pull_to_refresh/liquid_pull_to_refresh.dart'
     show LiquidPullToRefresh, LiquidPullToRefreshState, ProgressRingCurve;
 export 'package:lottie/lottie.dart';
-export 'package:smooth_page_indicator/smooth_page_indicator.dart';
+export 'package:smooth_page_indicator/smooth_page_indicator.dart ';

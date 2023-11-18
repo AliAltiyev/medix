@@ -22,8 +22,10 @@ abstract class ImagePaths {
   static const String calm = 'assets/image/relax.svg';
   static const String relax = 'assets/image/calm.svg';
   static const String focus = 'assets/image/focus.svg';
-  static const String anxious = 'assets/image/anxious.svg';
+  static const String anxious = 'assets/image/anx.svg';
   //relax
   static const String meditation = 'assets/image/med.svg';
-
+  static const String relax1 = 'assets/animation/on_boarding_image_1.json';
+  static const String relax2 = 'assets/animation/on_boarding_image_2.json';
+  static const String relax3 = 'assets/animation/on_boarding_image_3.json';
 }

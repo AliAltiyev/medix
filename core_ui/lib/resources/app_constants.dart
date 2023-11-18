@@ -12,4 +12,9 @@ final class AppConstants {
       'Reduce stress and anxiety and improve your overall well-being.';
   //Auth
   static const String required = 'Required field';
+  //Main
+  static const String relax = 'Relax';
+  static const String focus = 'Focus';
+  static const String calm = 'Calm';
+  static const String anxious = 'Anxious';
 }
